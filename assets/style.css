@@ -1,0 +1,26 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif
+    font-size: 16px;
+}
+
+header {
+    padding: 75px;
+    display: flex;
+    background-color: wheat;
+    color: darkslategrey;
+    border-color: black;
+    border-width: 2px;
+    font-size: 24px;
+}
+
+nav {
+
+}
+h2 {
+    font-size: 32px;
+}
+
+h1 {
+    justify-content: flex-start;
+
+}
