@@ -1,20 +1,30 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
+    display: block;
 }
 
-header {
+.main-header {
     padding: 75px;
     display: flex;
     background-color: wheat;
-    color: darkslategrey;
+    color: black(255, 255, 255);
     border-color: black;
     border-width: 2px;
     font-size: 24px;
+    justify-content: right;
 }
 
 nav {
-
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: maroon;
+    padding: 10px;
+    border: 2px;
+    border-color: darkslategrey;
+}
+nav a {
+    color: ghostwhite;
 }
 h2 {
     font-size: 32px;
@@ -22,5 +32,17 @@ h2 {
 
 h1 {
     justify-content: flex-start;
+    color: darkslategray;
+    border: 5px;
+    border-color: brown;
+    border-style: double;
+    padding: 10px;
+}
 
+.contact {
+    justify-content: center;
+}
+
+footer {
+    justify-content: center;
 }
