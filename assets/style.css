@@ -2,33 +2,54 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: darkslategray;
-    padding: 20px;
     font-family: 'Courier New', Courier, monospace;
     color: aliceblue;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav {
+    justify-content: space-around;
+    display: flex;
 }
 
 nav ul {
-    min-width: 500px;
+    min-height: 20px;
+    min-width: 100px;
     display: flex;
-    justify-content: space-around;
-    
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
 }
+
+nav ul:hover {
+    color: black;
+    background-color: wheat;
+}
+
 .links {
     display: flex;
 }
 
+.container {
+    justify-content: center;
+    
+}
 body {
     margin: auto;
-    padding: 20px;
+    padding-top: 0px;
     padding-bottom: 0px;
     font-size: 100%;
     display: flex;
     flex-direction: column;
-
 }
 
+.profile {
+    max-width: 300px;
+}
 .container-contact {
-   text-align: center;
+    text-align: center;
 }
 
 .photos {
@@ -51,6 +72,7 @@ h3 {
     font-size: 46px;
     text-align: left;
     text-align: center;
+    font-size: 125%;
 }
 
 h1 {
@@ -63,6 +85,11 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     display: block;
+    font-size: 175%;
+}
+
+h4 {
+    font-size: 110%;
 }
 
 .container-contact ul {
@@ -72,6 +99,8 @@ h2 {
 
 .container {
     display: flex;
+    flex-direction: column;
+    max-width: fit-content;
 }
 
 .contact ul {
@@ -80,6 +109,37 @@ h2 {
     font-size: 150%;
     background: darkslategray;
     color: white;
+}
+
+.contact ul:hover {
+    background-color: azure;
+
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 10px;
+    border-style: double;
+    border-color: darkslategrey;
+}
+
+.mainproj {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 5px;
+    border-style: ridge;
+    border-color: gray;
+}
+
+.mainproj a {
+    display: flex;
+}
+
+.mainproj a:hover {
+    background-color: wheat;
 }
 
 footer {
